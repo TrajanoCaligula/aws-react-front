@@ -1,14 +1,16 @@
 import React from 'react';
 import './NavBar.css';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
     <nav>
+      <div className="left">Mi Empresa</div>
       <ul>
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/about">Sobre Nosotros</a></li>
-        <li><a href="/contact">Contacto</a></li>
-        <li><a href="/login">Iniciar sesion</a></li>
+        <li><Link to="/" className="center">Portal</Link></li>
+        <li><Link to="/about">Sobre Nosotros</Link></li>
+        <li><Link to="/contact">Contacto</Link></li>
+        <li><Link to="/login">Iniciar sesion</Link></li>
       </ul>
     </nav>
   );
