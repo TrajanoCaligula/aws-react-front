@@ -7,7 +7,7 @@ function NavBar() {
     <nav>
       <div className="left">Mi Empresa</div>
       <ul>
-        <li><Link to="/" className="center">Portal</Link></li>
+        <li><Link to="/"className="center">Portal</Link></li>
         <li><Link to="/about">Sobre Nosotros</Link></li>
         <li><Link to="/contact">Contacto</Link></li>
         <li><Link to="/login">Iniciar sesion</Link></li>
